@@ -3,6 +3,12 @@ package br.com.marcelosouza.exercicio2;
 public abstract class Pessoa {
 
 	private String nome, rg;
+	
+	public Pessoa(String nome, String rg) {
+		super();
+		this.nome = nome;
+		this.rg = rg;
+	}
 
 	public String getNome() {
 		return nome;

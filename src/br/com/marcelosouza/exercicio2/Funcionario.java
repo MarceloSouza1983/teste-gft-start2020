@@ -3,6 +3,13 @@ package br.com.marcelosouza.exercicio2;
 public class Funcionario extends Pessoa {
 	
 	private double salario_inicial, percentual, salario_total;
+	
+	public Funcionario(String nome, String rg, double salario_inicial, double percentual, double salario_total) {
+		super(nome, rg);
+		this.salario_inicial = salario_inicial;
+		this.percentual = percentual;
+		this.salario_total = salario_total;
+	}
 
 	public double getSalario_inicial() {
 		return salario_inicial;
